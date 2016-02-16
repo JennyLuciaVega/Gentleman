@@ -1,0 +1,127 @@
+/*Nav and brand*/
+body{
+    font-family: "Rokkitt"
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+nav ul li {
+    margin-right: 14px;
+}
+.navbar{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+}
+.navbar-brand{
+  padding-top: 15px;
+}
+/*---------------*/
+/* Containers */
+@media only screen and (min-width: 768px) {
+  .container-xs,
+  .container-sm,
+  .container-md,
+  .container-lg{
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 0 auto;
+  }
+
+  .container-xs {
+    width: 508px;
+  }
+
+  .container-sm {
+    width: 748px;
+  }
+
+  .container-md {
+    width: 968px;
+  }
+  .container-lg {
+    width: 1168px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container-xs,
+  .container-sm,
+  .container-md,
+  .container-lg {
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 0 auto;
+  }
+}
+
+body{
+    font-family: "Rokkitt"
+}
+
+.img-header{
+    width: 95%;
+}
+.title-img{
+    font-size: 13px
+}
+.img-main{
+    width: 100%;
+}
+.txt-img{
+    font-size: 11px;
+}
+.bg-container{
+    background-color: #f3f3f3
+}
+.btn-load{
+    border-radius: 16px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: none;
+    color:white;
+}
+.btn-follow{
+    border-radius: 6px;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.btn-read{
+    border-radius: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: #ada9a9;
+}
+
+.link{
+    color: #E12562;
+}
+.title1{
+    font-family:Arial Narrow;
+}
+.title2{
+    font-family: Arial Black
+}
+.icon-social{
+    border-radius: 50%;
+    border: 1px dashed;
+}
